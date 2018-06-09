@@ -11,7 +11,7 @@ type App struct {
 	Name                    string      `json:"name"`
 	Discounted              bool        `json:"discounted"`
 	DiscountPercent         int         `json:"discount_percent"`
-	OriginalPrice           interface{} `json:"original_price"`
+	OriginalPrice           int         `json:"original_price"`
 	FinalPrice              int         `json:"final_price"`
 	Currency                string      `json:"currency"`
 	LargeCapsuleImage       string      `json:"large_capsule_image"`
