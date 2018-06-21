@@ -24,7 +24,7 @@ type App struct {
 	HeaderImage             string      `json:"header_image"`
 	Headline                string      `json:"headline"`
 	ControllerSupport       string      `json:"controller_support,omitempty"`
-	PurchasePackage         int         `json:"purchase_package,omitempty"`
+	PurchasePackage         json.Number `json:"purchase_package,omitempty"`
 	Body                    string      `json:"body,omitempty"`
 	URL                     string      `json:"url,omitempty"`
 }
